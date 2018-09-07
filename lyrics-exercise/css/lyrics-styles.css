@@ -1,0 +1,38 @@
+
+body {
+		width: 800px;
+		margin: auto;
+		background-color: black;
+		color: white;
+		font-family: sans-serif;
+}
+h1 {
+	font-size: 80px;
+	color:#ADD8E6; 
+}
+h2 {
+	font-size: 40px;
+}
+.verse {
+	font-size: 22px;
+	line-height: 1.5;
+	color:#D3D3D3;
+}
+.outro {
+	font-size: 18px;
+	line-height: 1.5;
+	color:#A9A9A9;
+	
+}
+
+.chorus {
+	font-size: 20px;
+	line-height: 1.5;
+	color: gray;
+}
+em{
+	color:#ADD8E6;
+	font-weight: bold;
+}
+
+
