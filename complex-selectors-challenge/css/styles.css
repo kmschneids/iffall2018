@@ -1,0 +1,66 @@
+
+/*Set the margin-bottom of the header to 3rem.*/
+header{
+	margin-bottom: 3rem;
+}
+/*Set the line-height of all paragraphs to 1.6.*/
+p{
+	line-height: 1.6;
+}
+/*Make the "See All..." links 0.8em, and uppercase.*/
+.see-all{
+	font-size: .8em;
+	text-transform: uppercase;
+}
+/*Make the show titles 2.5rem.*/
+h1{
+	font-size: 2.5rem;
+	font-weight: lighter;
+	
+}
+/*Make the section-titles 1rem and uppercase.*/
+/*Make all title fonts light weight.*/
+h2{
+	font-size: 1rem;
+	text-transform: uppercase;
+	font-weight:lighter;
+}
+/*Make the cast images width:100%;*/
+img{
+	width: 100%;
+}
+/*Make each castmember element width:25%;*/
+section.cast li {
+	width: 25%;
+}
+/*Add a 1px border above each show — without unintentionally adding borders elsewhere.*/
+.shows > li{
+	border-top: 1px solid grey;
+}
+/*Make the navigation tab with the .selected class be bold and black.*/
+ul li.selected{
+	font-weight: bold;
+}
+/*Make the castmember labels 0.8rem.*/
+section.cast li div{
+	font-size: .8rem;
+}
+/*Make the actor/actress names bold.*/
+section.cast li div:nth-child(2){
+	font-weight: bold;
+}
+/*Make the character names italic.*/
+section.cast li div:last-child{
+	font-style: italic;
+}
+/*Add an asterisk (*) to the last year in the Game of Thrones seasons list.*/
+li#game-of-thrones > section.seasons li:nth-child(7):after{
+	content:"*";
+}
+/*Add the text "* In production" on the next line after the Game of Thrones season list. Make it 0.7rem, and color it to be #999.*/
+
+#game-of-thrones .seasons:after {
+	content:"* In production";
+	font-size: .7rem;
+	color: #999;
+}
