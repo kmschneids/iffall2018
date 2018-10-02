@@ -28,10 +28,10 @@ header h1{
 header h2{
 	font-size:30px;
 	margin-top: 0;
-	color:grey;
+	color:white;
 }
 section.second{
-	background-color: rgba(139,0,0,.5);
+	background-color:rgb(60,205,100);
 	height:712px;
 }
 .title{
@@ -49,7 +49,7 @@ p {
 	line-height: 24.5px;
 	padding-top:19px;
 	text-align:left;
-	color:#Add8e6;
+	color: black;
 
 }
 #one{
@@ -67,11 +67,11 @@ p {
 	float: right;
 }
 section.third{
-	background-color: rgba(139,0,0,.5);
-	height:712px;
+	background-color: rgb(0,100,0);
+	height:685px;
 }
 .thirdbox{
-	background-color: rgba(100,0,0,.3);
+	/*background-color: rgba(100,0,0,.3);*/
 	margin:0 auto;
 	width:959px;
 	height:500px;
@@ -81,19 +81,58 @@ section.third{
 	float:left;
 	width:50%;
 	height:33.4%;
-	background-color: rgba(0,0,200,.1);
+	/*background-color: rgba(0,0,200,.1);*/
+	padding-bottom: 8px;
 
 }
 .right{
-	background-color: rgba(0,200,0,.1);
-	width:50%;
+	/*background-color: rgba(0,200,0,.1);
+*/	width:50%;
 	height: 33.4%;
 	float:right;
+	padding-bottom: 8px;
 }
 .gridimages{
 	width:197px;
 	height:149px;
 	padding-bottom:10px;
+}
+.descript{
+	float:right;
+	width:268px;
+	height:149px;
+}
+.ptitle{
+	text-align: left;
+	font-size:20px;
+	font-weight:bold;
+}
+.phototext{
+	margin-top:0;
+	padding-top:10px;
+	width:210px;
+}
+.fourth{
+	background-color: rgb(139,20,0);
+	height:401px;
+}
+.fourth .title{
+	padding-top:47px;
+}
+.fourth p{
+	padding-top:39px;
+	margin:0 auto;
+	width:713px;
+	font-size:26px;
+	line-height: 35px;
+	text-align: center;
+}
+#copy{
+	padding-top:44px;
+	font-size: 19px;
+	margin:0 auto;
+	width:1000;
+
 }
 
 
