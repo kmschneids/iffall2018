@@ -127,11 +127,16 @@ section.third{
 	line-height: 35px;
 	text-align: center;
 }
-#copy{
-	padding-top:44px;
-	font-size: 19px;
+#copycon{
+	/*background-color: rgba(139,20,0,.5);*/
+	height:26px;
+	width:964px;
 	margin:0 auto;
-	width:1000;
+}
+#copy{
+	padding-top:23px;
+	padding-left: 2px;
+	font-size: 18px;
 
 }
 
