@@ -1,0 +1,38 @@
+#one{
+	float: right;
+	right: 0px;
+}
+.section{
+	position:relative;
+}
+#two{
+	position:absolute;
+	right:0px;
+	bottom:0px;
+}
+#three{
+	background-color:green;
+	position:fixed;
+	top:0;
+	right:0;
+	z-index: 200;
+}
+#section2{
+	position:relative;
+}
+#section2 aside{
+	position: absolute;
+	left:50%;
+	transform: translateX(-50%)
+
+}
+#four{
+	background-color:red;
+	z-index: 100;
+}
+#five{
+	background-color:black;
+	margin-top:10px;
+	margin-left:10px;
+
+}
