@@ -1,0 +1,492 @@
+			a#btn_coco {
+				background-color: black;
+				display:inline-block;
+				height:200px;
+				width:200px;
+				color: red;
+				padding: 40px 40px 10px 40px;
+				box-sizing: border-box;
+				/*margin-top: 100px;*/
+				text-decoration:none;
+				border-radius:50%;
+				font-family: 'Fredericka the Great', cursive;
+				font-size: 50px;
+				text-align: center;
+				margin: auto;
+				margin-top:30px;
+			}
+
+			a#btn_coco:hover {
+				background-image: url("../bubbles.jpg");
+				background-size: cover;
+				/*border: 2px dotted grey;*/
+				color: red;
+
+			}
+			a#btn_nerf {
+				display:inline-block;
+				height:50px;
+				width:100px;
+				font-family: 'Ubuntu', sans-serif;
+				font-size:30px;
+				background-color: rgb(255,69,0);
+				color:white;
+				padding: 8px 40px 10px 11px;
+				text-align:center;
+				text-decoration:none;
+				box-sizing: border-box;
+				margin: auto;
+				margin-top:100px;
+			}
+			a#btn_nerf:hover {
+				text-shadow: 2px 3px 6px rgba(0, 0, 0, 1);
+				background-color:white;
+				color: rgb(255,69,0);
+			}
+			a#btn_sardellastl {
+				border: 2px dotted grey;
+				display:inline-block;
+				height:60px;
+				width:150px;
+				font-family: 'Ubuntu', sans-serif;
+				font-size:30px;
+				padding-top:8px;
+				color:black;
+				position: absolute;
+				transform: translateX(-50%);
+				text-align:center;
+				text-decoration:none;
+				border: 2px dotted grey;
+				box-sizing: border-box;
+				border-radius:50%;
+				margin: auto;
+				margin-top:30px;
+				box-sizing: border-box;
+				margin: auto;
+				margin-top:100px;
+			}
+			a#btn_sardellastl:hover {
+				text-shadow: 2px 3px 0px rgba(0, 255, 255, 1);
+				background-color:rgb(0,128,128);
+				color: #ff1493;
+			}
+			#harley{
+				/*background-color: black;*/
+			}
+			.motorcycle {
+
+			}
+			a#btn_harley {
+				/*border: 2px solid grey;*/
+				display: inline-block;
+				background-color: white;
+				height: 50px;
+				box-sizing: border-box;
+				border-radius: 4px;
+				margin: auto;
+				margin-top: 105px;
+				padding: 14px 30px 0 30px;
+				color: black;
+				font-size: 18px;
+				font-family: 'Montserrat', sans-serif;
+				text-decoration: none;
+			}
+			a#btn_harley:hover {
+				color:white;
+				/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+50,3d3d3d+70,727272+83,a8a8a8+93,d1d1d1+100,ffffff+100 */
+				background: rgb(0,0,0); /* Old browsers */
+				background: -moz-linear-gradient(top, rgba(0,0,0,1) 50%, rgba(61,61,61,1) 70%, rgba(114,114,114,1) 83%, rgba(168,168,168,1) 93%, rgba(209,209,209,1) 100%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+				background: -webkit-linear-gradient(top, rgba(0,0,0,1) 50%,rgba(61,61,61,1) 70%,rgba(114,114,114,1) 83%,rgba(168,168,168,1) 93%,rgba(209,209,209,1) 100%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+				background: linear-gradient(to bottom, rgba(0,0,0,1) 50%,rgba(61,61,61,1) 70%,rgba(114,114,114,1) 83%,rgba(168,168,168,1) 93%,rgba(209,209,209,1) 100%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#ffffff',GradientType=0 );  IE6
+			}
+			a#btn_bissingers{
+				background-color: rgb(201, 38, 95);
+				display:inline-block;
+				height:100px;
+				width:150px;
+				color: white;
+				padding: 28px 10px 10px 10px;
+				box-sizing: border-box;
+				margin-top: 100px;
+				text-decoration:none;
+				border-radius:50%;
+				font-family: cursive;
+				font-size: 26px;
+				text-align: center;
+				margin: auto;
+				margin-top:30px;
+			}
+
+			a#btn_bissingers:hover {
+				
+				background-size: cover;
+				border: 4px dotted rgb(212,175,55);
+				color: rgb(212,175,55);
+
+			}
+			a#btn_nike {
+				border: 2px solid black;
+				display: inline-block;
+				height: 51px;
+				width: 125px;
+				box-sizing: border-box;
+				border-radius: 4px;
+				margin: auto;
+				margin-top: 105px;
+				padding: 14px 30px 0 30px;
+				color: black;
+				font-size: 16px;
+				font-family: 'Montserrat', sans-serif;
+				text-decoration: none;
+			}
+			a#btn_nike:hover{
+				color:white;
+				background-color:black;
+
+			}
+			#plant {
+				display: inline-block;
+				background-color:rgb(156, 229, 114);
+				height:163px;
+				width:200px;
+				box-sizing: border-box;
+				border-radius: 8px;
+			}
+			#plant:hover{
+				background-color:rgb(91, 135, 66);
+				-webkit-box-shadow: 8px 8px 8px 0px rgba(50, 157, 50, 0.59);
+				-moz-box-shadow:    8px 8px 8px 0px rgba(50, 157, 50, 0.59);
+				box-shadow:         8px 8px 8px 0px rgba(50, 157, 50, 0.59);
+			}
+			.fa {
+				padding-top:22px;
+			}
+			#btn_garden {
+				font-size:30px;
+				color:white;
+				font-family: 'Arial', sans-serif;
+				text-decoration:none;	
+			}
+			#btn_colorrun {
+				margin-top: 80px;
+				font-family: 'Ubuntu', sans-serif;
+				display: inline-block;
+				height:54px;
+				width:125px;
+				background-image: url("https://media.agestaweb.it/siti/00712/public/foto/colore-art.-2.jpg");
+				background-size: contain;
+				background-repeat: no-repeat;
+				padding-top:30px;
+				text-decoration: none;
+				color:white;
+			}
+			#btn_colorrun:hover {
+				text-shadow: 2px 3px 4px rgba(0, 0, 0, 1);
+			}
+			#btn_moo {
+				text-decoration:none;
+				display: inline-block;
+				font-size:44px;
+				color: rgb(153, 216, 232);
+				padding-top:0px;
+				font-family: 'Montserrat', sans-serif;
+				margin-top: 96px;
+				height: 57px;
+				width: 125px;
+				/*border: 2px solid rgb(153, 216, 232);*/
+				box-sizing: border-box;
+				border-radius: 4px;
+			}
+			#btn_moo:hover {
+				background-color:rgb(153, 216, 232);
+				color:white;
+			}
+			#btn_potter {
+				margin-top:80px;
+				padding-top:8px;
+				font-size:40px;
+				font-family: 'Nanum Brush Script', cursive;
+				text-decoration: none;
+				display:inline-block;
+				height:60px;
+				width:200px;
+				background-color:rgb(25, 41, 94);
+				color:rgb(219, 203, 26);
+				box-sizing:border-box;
+				border-radius:10px;
+				text-shadow: 2px 3px 6px rgba(0, 0, 0, 0.45);
+
+			}
+			#btn_potter:hover{
+				background-image: url("https://thumbs.dreamstime.com/t/fairy-dust-magic-background-fairy-dust-magic-background-xmas-107193869.jpg");
+				background-size:cover;
+				color:rgb(232, 226, 164);
+				text-shadow: 2px 3px 6px rgba(219, 203, 26, 0.45);
+			}
+			#btn_kittens{
+				font-family: 'Nanum Brush Script', cursive;
+				text-decoration: none;
+				display:inline-block;
+				height:50px;
+				width:200px;
+				box-sizing:border-box;
+				padding-top:7px;
+				border-radius:5px;
+				font-size:30px;
+				margin-top:80px;
+				color:white;
+				background-color: rgb(168, 6, 6);
+			}
+			#btn_kittens:hover{
+				background-image:url("https://res.cloudinary.com/teepublic/image/private/s--s-QSFATr--/t_Preview/b_rgb:ffffff,c_limit,f_jpg,h_630,q_90,w_630/v1508254382/production/designs/1979113_1.jpg");
+				background-repeat: repeat;
+				background-size: contain;
+			}
+			#btn_molly{
+				font-family: 'Fredericka the Great', cursive;
+				text-decoration: none;
+				display:inline-block;
+				height:35px;
+				width:200px;
+				font-size:18px;
+				padding-top:5px;
+				background-color:rgb(111, 196, 121);
+				color:rgb(31, 56, 34);
+				border-radius:5px;
+				box-sizing:border-box;
+				margin-top:80px;
+			}
+			#btn_molly:hover{
+				color:rgb(4, 109, 107);
+				background: rgb(111,196,121); /* Old browsers */
+				background: -moz-linear-gradient(top, rgba(111,196,121,1) 0%, rgba(65,114,72,1) 100%); /* FF3.6-15 */
+				background: -webkit-linear-gradient(top, rgba(111,196,121,1) 0%,rgba(65,114,72,1) 100%); /* Chrome10-25,Safari5.1-6 */
+				background: linear-gradient(to bottom, rgba(111,196,121,1) 0%,rgba(65,114,72,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6fc479', endColorstr='#417248',GradientType=0 );
+		}
+		#btn_newyork{
+			font-family: 'Playfair Display SC', serif;
+			text-decoration: none;
+			color:black;
+			font-size: 25px;
+			display:block;
+			margin-top:100px;
+		}
+		#btn_newyork:hover{
+			text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.37);
+		}
+		#apples{
+			height:100px;
+			width:100px;
+			border-radius: 50%;
+			box-sizing: border-box;
+			background-color:rgb(207, 209, 208);
+			display:inline-block;
+			margin-top:70px;
+
+		}
+		i.fa.fa-apple{
+			display:inline-block;
+			font-size:60px;
+			padding-top:8px;
+		}
+		#btn_apple {
+			margin-top:0px;
+			padding-top:0px;
+			text-decoration: none;
+			color: white;
+			font-size:10px;
+		}
+		#apples:hover{
+			background-color:black;
+		}
+		i.fa.fa-apple:hover{
+			color:rgb(207, 209, 208);
+		}
+		#btn_ibm{
+			text-decoration:none;
+			font-family: 'Montserrat', sans-serif;
+			color:black;
+			display: inline-block;
+			font-size:44px;
+			box-sizing: border-box;
+			border-radius: 4px;
+			margin-top:96px;
+			width:100px;
+			/*background-color: grey;*/
+		}
+		#btn_ibm:hover{
+			-webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.37);
+			-moz-box-shadow:    0px 0px 30px 0px rgba(0, 0, 0, 0.37);
+			box-shadow:         0px 0px 30px 0px rgba(0, 0, 0, 0.37);
+		}
+		#btn_ideo{
+			background-image: url("https://previews.123rf.com/images/intsys/intsys1305/intsys130500026/19805746-bushmans-valley-in-drakensberg-mountains-south-africa.jpg");
+			background-size: cover;
+			color:white;
+			border:2px solid white;
+			text-decoration:none;
+			font-family: 'Montserrat', sans-serif;
+			display: inline-block;
+			font-size:30px;
+			box-sizing: border-box;
+			border-radius: 4px;
+			margin-top:96px;
+			padding-top: 5px;
+			width:120px;
+			height:50px;
+		}
+		#btn_ideo:hover{
+			background-color: white;
+			color:black;
+		}
+		#btn_lyft{
+			font-family: 'Montserrat Alternates', sans-serif;
+			color:white;
+			font-weight:bold;
+			text-decoration:none;
+			margin-top:96px;
+			display: inline-block;
+			border-radius: 12px;
+			background-color:rgb(206, 47, 134);
+			box-sizing:border-box;
+			padding-top:5px;
+			width: 90px;
+			height:50px;
+			font-size:30px;
+		}
+		#btn_lyft:hover{
+			color:rgb(39, 74, 96);
+			background: -moz-linear-gradient(top, rgba(204,108,159,1) 0%, rgba(125,185,232,0) 100%); /* FF3.6-15 */
+			background: -webkit-linear-gradient(top, rgba(204,108,159,1) 0%,rgba(125,185,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
+			background: linear-gradient(to bottom, rgba(204,108,159,1) 0%,rgba(125,185,232,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc6c9f', endColorstr='#007db9e8',GradientType=0 );
+		}
+		.btn_cartoon{
+			text-decoration: none;
+			font-family: 'Ubuntu', sans-serif;
+			font-size:50px;
+			margin-top:80px;
+			display: inline-block;
+			border-radius: 0px;
+			color:black;
+			padding-top:0px;
+		}
+		#one{
+			color:white;
+			background-color:black;
+			width:48px;
+			height:59px;
+		}
+		#two:hover{
+			color:white;
+			background-color:black;
+			width:48px;
+			height:59px;
+		}
+		#one:hover{
+			color:black;
+			background-color:white;
+			width:48px;
+			height:59px;
+		}
+		#btn_samsung{
+			text-decoration:none;
+			font-family: 'Montserrat', sans-serif;
+			color:grey;
+			font-size:40px;
+			margin-top:75px;
+			display: inline-block;
+			/*border: 2px solid black;*/
+			padding-top:8px;
+			height:60px;
+			width:250px;
+		}
+		#btn_samsung:hover{
+			color:white;
+			background-color:black;
+		}
+		#btn_ofa{
+			font-family: 'Ubuntu', sans-serif;
+			text-decoration:none;
+			font-size:40px;
+			margin-top:75px;
+			display: inline-block;
+			/*border: 2px solid black;*/
+			padding-top:5px;
+			height:56px;
+			width:104px;
+			color:rgb(136, 210, 239);
+			border-radius: 12px;
+			box-sizing:border-box;
+		}
+		#btn_ofa:hover{
+			background-color:rgb(136, 210, 239);
+			color:black;
+		}
+		#btn_tesla{
+			font-family: 'Audiowide', cursive;
+			text-decoration:none;
+			font-size:40px;
+			color:grey;
+			margin-top:75px;
+			display: inline-block;
+		}
+		#btn_tesla:hover{
+			color:black;
+			text-shadow: 4px 4px 2px rgba(150, 150, 150, 0.46);
+
+		}
+		#btn_fitbit{
+			font-family: 'Montserrat Alternates', sans-serif;
+			text-decoration:none;
+			color:rgb(55, 89, 122);
+			margin-top:75px;
+			display: inline-block;
+			font-size:40px;
+			background-color:rgb(136, 210, 239);
+			height:60px;
+			width:120px;
+			border-radius: 10px;
+			box-sizing:border-box;
+			padding-top:3px;
+		}
+		#btn_fitbit:hover{
+			background-color:white;
+			border:2px solid rgb(55, 89, 122);
+			text-shadow: 4px 4px 27px rgba(150, 150, 150, 1);
+
+		}
+		#btn_npr{
+			font-family: 'Montserrat Alternates', sans-serif;
+			text-decoration:none;
+			color:rgb(136, 210, 239);
+			margin-top:75px;
+			display: inline-block;
+			font-size:40px;
+		}
+		#btn_npr:hover{
+			color:black;
+			text-shadow: 0px 0px 15px rgba(55, 89, 122, 0.69);
+		}
+		#btn_facebook{
+				text-decoration:none;
+				display: inline-block;
+				font-size:89px;
+				color: white;
+				padding-top:0px;
+				font-family: 'Montserrat', sans-serif;
+				margin-top: 96px;
+				height: 76px;
+				width: 76px;
+				background-color:rgb(39, 84, 173);
+				font-weight:bold;
+		}
+		#btn_facebook:hover{
+			background-color:white;
+			border:2px solid rgb(39, 84, 173);
+			color:rgb(39, 84, 173);
+			text-shadow: 3px 3px 4px rgba(39, 84, 173, 0.55);
+
+		}
