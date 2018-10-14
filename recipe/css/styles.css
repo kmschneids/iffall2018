@@ -8,14 +8,11 @@
 }
 div.title {
 	font-family: 'Cabin Sketch', cursive;
-	/*font-family: 'East Sea Dokdo', cursive;*/
-	/*font-family: 'Nanum Brush Script', cursive;*/
-	/*font-family: 'Love Ya Like A Sister', cursive;*/
 	font-size: 50px;
 	text-align: left;
-	margin: 0 0 0 0;
 	padding-top: 175px;
-	padding-left: 10px; 
+	padding-left: 3%; 
+	width:100%;
 	color: rgba(242, 242, 242, 1);
 	line-height: 47px;
 	text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.85);
@@ -65,10 +62,11 @@ em{
 }
 .info{
 	/*margin:0 auto;*/
+	width:40%;
 	display:inline-block;
 	float:left;
 	text-align: center;
-	margin: 12px 12px 8px 8px;
+	margin: 12px 5% 8px 5%;
 	text-shadow: 2px 2px 7px rgba(0, 0, 0, 1);
 	color:white;
 }
@@ -76,7 +74,8 @@ em{
 	margin:0 auto;
 	height: 70px;
 	/*background-color:rgba(0, 0, 0, .6);*/
-	width: 201px;
+	margin-left:23%;
+	margin-right:23%;
 }
 #people{
 	margin:0 auto;
