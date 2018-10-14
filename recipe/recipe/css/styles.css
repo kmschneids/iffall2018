@@ -1,10 +1,8 @@
 
 #one{
 	background-image: url("../fire_2.jpg");
-	background-size: 100%;
-	height: 248px;
+	background-size: 100% 250px;
 	background-repeat: no-repeat;
-	opacity:;
 }
 div.title {
 	font-family: 'Cabin Sketch', cursive;
@@ -20,19 +18,22 @@ div.title {
 #two{
 /*	background-color: rgba(112, 79, 3, .3);*/
 	height: 161px;
-	margin-top:0px;
+	padding-top:30px;
+	width:80%;
+	margin:0 auto;
 }
 .descript{
 	color:black;
 	text-align:center;
-	padding: 30px 10% 0px 10%;
+	/*padding: 30px 10% 0px 10%;*/
 	line-height: 22px;
 }
 .bars{
 	background-image: url("../chocolate_1.jpg");
 	background-size: 100%;
-	height: 70px;
+	height: 75px;
 	margin-top:0px;
+	background-repeat: no-repeat;
 }
 .image{
 	height:200px;
