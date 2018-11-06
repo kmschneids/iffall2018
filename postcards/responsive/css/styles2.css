@@ -1,0 +1,36 @@
+body, html{
+	font-family: 'Roboto Slab', serif;
+	color: white;
+	font-size:32px;
+	height:100%;
+	text-shadow: 5px 2px 11px rgba(0, 0, 0, 0.66);
+}
+.image{
+	display:block;
+	height:100%;
+	position: relative;
+	background-image: url("../swanson_glee.jpg");
+	background-size:cover;
+	background-position: center;
+/*	width:100%;*/
+}
+#quote{
+	position:absolute;
+	top: 15%;
+	left: 8%;
+	width: 27%;
+}
+.swanson{
+	position:absolute;
+	bottom: 15%;
+	right:8%;
+}
+a{
+	display: block;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 100;
+}
