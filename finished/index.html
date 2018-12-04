@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The Whole Moon Conspiracy</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat: 300,400,400i|Sunflower:300,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Aldrich|Geostar+Fill|Orbitron" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+	<link href="css/styles.css" rel="stylesheet">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<script>
+		$( document).ready(function() {
+			$(".fa").click(function(){
+				$("nav").toggleClass("open");
+				$(".menu").toggleClass("open2");
+				$(".fa").toggleClass("hide");
+			}); 
+		});
+	</script>
+</head>
+<body>
+	<div id="image">
+		<div class="menu">
+			<img class="icon" id="mobile_icon" src="icon_3.png">
+			<i class="fa fa-arrow-right" aria-hidden="true"></i>
+			<i class="fa fa-arrow-left hide" aria-hidden="true"></i>
+		</div>
+		<nav>
+			<div class="nav_bar">
+				<img class="icon" src="icon_3.png">
+				<a href="index.html" class="on_page" > Home</a>
+			</div>
+			<a id="mobile_home" class ="nav_bar on_page" href="index.html"> Home </a>
+			<a class="nav_bar"  href="photo.html"> Photographic </a>
+			<a class="nav_bar" href="environment.html"> Environment </a>
+			<a class="nav_bar" href="mechanical.html"> Mechanical </a>
+			<a class="nav_bar" href="transmissions.html"> Transmissions </a>
+		</nav>
+		<div id="title"> Moon Landing <br>Conspiracy Theories</div>
+		<footer>
+			<div id="footer"> Moon Landing Conspiracy Theories Site | Art Director: Emma Gindy | Designer: Katie Schneider | IFFALL2018 <br>
+			Sources:
+			<a class="source" href="https://www.nasa.gov/feature/goddard/2018/studying-the-van-allen-belts-60-years-after-america-s-first-spacecraft"> nasa.gov </a>, 
+			<a class="source" href="http://www.sciencemag.org/news/2016/09/linguists-question-armstrong-s-famous-moon-landing-quote"> sciencemag.org </a>, <a class="source" href="https://en.wikipedia.org/wiki/Moon_landing_conspiracy_theories"> wikipedia.org </a>, <a class="source" href="http://www.atnf.csiro.au/news/16jul99/index.html"> csiro.au</a>
+		</footer>
+	</div>
+
+</body>
+</html>
